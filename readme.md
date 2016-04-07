@@ -2,7 +2,7 @@
 
 **A prompt to an item from a list.**
 
-todo: asciicast
+[![asciicast](https://asciinema.org/a/41541.png)](https://asciinema.org/a/41541)
 
 [![npm version](https://img.shields.io/npm/v/select-prompt.svg)](https://www.npmjs.com/package/select-prompt)
 [![dependency status](https://img.shields.io/david/derhuerst/select-prompt.svg)](https://david-dm.org/derhuerst/select-prompt#info=dependencies)
