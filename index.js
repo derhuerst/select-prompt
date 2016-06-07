@@ -77,7 +77,7 @@ const SelectPrompt = {
 
 		this.out.write([
 			  ui.symbol(this.done, this.aborted)
-			, chalk.bold(this.msg), ui.delimiter
+			, chalk.bold(this.msg), ui.delimiter(false)
 			, (this.done ? this.values[this.cursor].title : '')
 		].join(' '))
 
