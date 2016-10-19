@@ -33,7 +33,7 @@ const colors = [
 ]
 
 prompt('What is your favorite color?', colors, {cursor: 3})
-.on('abort', (e) => console.log('Interim value', e.value))
+.on('data', (e) => console.log('Interim value', e.value))
 .on('abort', (v) => console.log('Aborted with', v))
 .on('submit', (v) => console.log('Submitted with', v))
 ```

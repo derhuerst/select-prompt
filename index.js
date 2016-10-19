@@ -73,7 +73,7 @@ const SelectPrompt = {
 
 	, render: function (first) {
 		if (first) this.out.write(esc.cursorHide)
-		else this.out.write(esc.eraseLines(this.values.length + 1))
+		else this.out.write(esc.eraseLines(this.values.length + 2))
 
 		this.out.write([
 			  ui.symbol(this.done, this.aborted)
