@@ -41,10 +41,12 @@ prompt('What is your favorite color?', colors, {cursor: 3})
 
 ## Related
 
+- [`mail-prompt`](https://github.com/derhuerst/mail-prompt)
 - [`date-prompt`](https://github.com/derhuerst/date-prompt)
 - [`multiselect-prompt`](https://github.com/derhuerst/multiselect-prompt)
 - [`number-prompt`](https://github.com/derhuerst/number-prompt)
 - [`text-prompt`](https://github.com/derhuerst/text-prompt)
+- [`cli-autocomplete`](https://github.com/derhuerst/cli-autocomplete)
 
 
 ## Contributing
