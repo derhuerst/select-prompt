@@ -1,7 +1,7 @@
 {
 	"name":              "select-prompt",
 	"description":       "A prompt to select zero or more items.",
-	"version":           "0.3.0",
+	"version":           "0.3.1",
 	"main":              "index.js",
 	"files":             ["index.js"],
 	"keywords":          ["command", "line", "cli", "prompt", "select", "radio", "prompt"],
