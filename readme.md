@@ -1,12 +1,17 @@
 # select-prompt
 
-**A prompt to an item from a list.**
+**Deprecated. Use the [select prompt](https://github.com/enquirer/enquirer#select-prompt) from [`enquirer`](https://github.com/enquirer/enquirer).**
+
+---
+
+A prompt to an item from a list.
 
 [![asciicast](https://asciinema.org/a/41541.png)](https://asciinema.org/a/41541)
 
 [![npm version](https://img.shields.io/npm/v/select-prompt.svg)](https://www.npmjs.com/package/select-prompt)
 [![dependency status](https://img.shields.io/david/derhuerst/select-prompt.svg)](https://david-dm.org/derhuerst/select-prompt#info=dependencies)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/select-prompt.svg)
+[![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
 
 *select-prompt* uses [*cli-styles*](https://github.com/derhuerst/cli-styles) and [*prompt-skeleton*](https://github.com/derhuerst/prompt-skeleton) to have a look & feel consistent with [other prompts](https://github.com/derhuerst/prompt-skeleton#prompts-using-prompt-skeleton).
 
@@ -41,11 +46,11 @@ prompt('What is your favorite color?', colors, {cursor: 3})
 
 ## Related
 
-- [`mail-prompt`](https://github.com/derhuerst/mail-prompt)
 - [`date-prompt`](https://github.com/derhuerst/date-prompt)
+- [`mail-prompt`](https://github.com/derhuerst/mail-prompt)
 - [`multiselect-prompt`](https://github.com/derhuerst/multiselect-prompt)
-- [`number-prompt`](https://github.com/derhuerst/number-prompt)
-- [`text-prompt`](https://github.com/derhuerst/text-prompt)
+- [`range-prompt`](https://github.com/derhuerst/range-prompt)
+- [`tree-select-prompt`](https://github.com/derhuerst/tree-select-prompt)
 - [`cli-autocomplete`](https://github.com/derhuerst/cli-autocomplete)
 
 

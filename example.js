@@ -2,8 +2,6 @@
 
 const selectPrompt = require('./index')
 
-
-
 const colors = [
 	{title: 'red',    value: '#f00'},
 	{title: 'yellow', value: '#ff0'},
@@ -13,7 +11,7 @@ const colors = [
 	{title: 'white',  value: '#fff'}
 ]
 
-selectPrompt('Which color?', colors, {cursor: 3})
-.on('data', (e) => console.log('Interim value', e.value))
-.on('abort', (v) => console.log('aborted with', v))
-.on('submit', (v) => console.log('submitted with', v))
+selectPrompt('Which color do you like best?', colors)
+// .on('data', (data) => console.log('Changed to', selected(data.value)))
+.on('abort', (item) => console.log('Aborted with', item))
+.on('submit', (item) => console.log('Submitted with', item))
